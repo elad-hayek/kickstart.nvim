@@ -559,6 +559,8 @@ require('lazy').setup({
         --
         angularls = {},
 
+        cssls= {},
+
         lua_ls = {
           -- cmd = {...},
           -- filetypes { ...},

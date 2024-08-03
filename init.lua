@@ -153,6 +153,10 @@ vim.opt.scrolloff = 10
 vim.o.tabstop = 4 -- Set tabstop to 4 spaces
 vim.o.shiftwidth = 4 -- Set shiftwidth to 4 spaces
 
+vim.opt.colorcolumn = '80' -- Highlight column 80
+
+vim.opt.spell = true -- Enable spell check
+
 vim.keymap.set('n', '<A-j>', ':m .+1<CR>==')
 vim.keymap.set('n', '<A-k>', ':m .-2<CR>==') -- move line down(n)
 vim.keymap.set('v', '<A-j>', ":m '>+1<CR>gv=gv") -- move line up(v)
